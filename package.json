@@ -1,6 +1,6 @@
 {
-  "name": "egg-mongoose",
-  "version": "4.0.1",
+  "name": "@catalystclan/egg-mongoose",
+  "version": "4.0.1-0",
   "description": "egg mongoose plugin",
   "eggPlugin": {
     "name": "mongoose"
