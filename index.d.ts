@@ -20,12 +20,12 @@ declare module 'egg' {
   interface Application {
     mongooseDB: mongoose.Connection | MongooseSingleton;
     mongoose: typeof mongoose;
-    model: MongooseModels;
+    mongoModel: MongooseModels;
   }
 
   // extend context
   interface Context {
-    model: MongooseModels;
+    mongoModel: MongooseModels;
   }
 
   // extend your config
